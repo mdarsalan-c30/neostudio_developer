@@ -14,7 +14,123 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      faqs: {
+        Row: {
+          answer: string
+          category: string | null
+          created_at: string
+          id: string
+          is_active: boolean | null
+          question: string
+          sort_order: number | null
+          updated_at: string
+        }
+        Insert: {
+          answer: string
+          category?: string | null
+          created_at?: string
+          id?: string
+          is_active?: boolean | null
+          question: string
+          sort_order?: number | null
+          updated_at?: string
+        }
+        Update: {
+          answer?: string
+          category?: string | null
+          created_at?: string
+          id?: string
+          is_active?: boolean | null
+          question?: string
+          sort_order?: number | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      portfolio: {
+        Row: {
+          category: string
+          created_at: string
+          description: string | null
+          featured: boolean | null
+          id: string
+          image_url: string | null
+          project_url: string | null
+          sort_order: number | null
+          technologies: string[] | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          category: string
+          created_at?: string
+          description?: string | null
+          featured?: boolean | null
+          id?: string
+          image_url?: string | null
+          project_url?: string | null
+          sort_order?: number | null
+          technologies?: string[] | null
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          category?: string
+          created_at?: string
+          description?: string | null
+          featured?: boolean | null
+          id?: string
+          image_url?: string | null
+          project_url?: string | null
+          sort_order?: number | null
+          technologies?: string[] | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      testimonials: {
+        Row: {
+          avatar_url: string | null
+          client_company: string | null
+          client_name: string
+          client_position: string | null
+          created_at: string
+          featured: boolean | null
+          id: string
+          rating: number | null
+          sort_order: number | null
+          testimonial: string
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          client_company?: string | null
+          client_name: string
+          client_position?: string | null
+          created_at?: string
+          featured?: boolean | null
+          id?: string
+          rating?: number | null
+          sort_order?: number | null
+          testimonial: string
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          client_company?: string | null
+          client_name?: string
+          client_position?: string | null
+          created_at?: string
+          featured?: boolean | null
+          id?: string
+          rating?: number | null
+          sort_order?: number | null
+          testimonial?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
