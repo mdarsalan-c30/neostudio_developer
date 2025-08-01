@@ -37,7 +37,7 @@ const Navigation = () => {
             </a>
           </div>
           
-          <div className="hidden md:flex items-center space-x-4">
+{/*           <div className="hidden md:flex items-center space-x-4">
             {user ? (
               <div className="flex items-center space-x-2">
                 {isAdmin && (
@@ -58,7 +58,7 @@ const Navigation = () => {
                 <a href="/auth">Login</a>
               </Button>
             )}
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <Button
@@ -94,7 +94,7 @@ const Navigation = () => {
                 Contact
               </a>
               
-              <div className="px-3 py-4 border-t border-border/20 mt-4">
+{/*               <div className="px-3 py-4 border-t border-border/20 mt-4">
                 {user ? (
                   <div className="space-y-2">
                     {isAdmin && (
@@ -114,7 +114,7 @@ const Navigation = () => {
                     <a href="/auth">Login</a>
                   </Button>
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
         )}
