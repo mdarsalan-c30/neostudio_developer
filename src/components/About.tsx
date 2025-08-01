@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, TrendingUp } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "150+", label: "Projects Completed" },
+  { icon: Award, value: "10+", label: "Projects Completed" },
   { icon: Users, value: "50+", label: "Premium Clients" },
   { icon: TrendingUp, value: "300%", label: "Average Growth" }
 ];
