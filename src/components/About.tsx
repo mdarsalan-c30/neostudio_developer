@@ -16,18 +16,19 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-light text-foreground mb-8">
               Crafted for Excellence
             </h2>
-            <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
-              We partner with ambitious brands to create digital experiences that captivate audiences and drive unprecedented growth.
-            </p>
-            <p className="text-lg text-muted-foreground font-light leading-relaxed">
-             At Neostudio, we’re a results-driven digital marketing agency helping brands grow through smart, scalable, and data-led strategies. We specialize in SEO services, performance marketing, and digital brand development, empowering businesses to boost their online visibility and attract high-quality traffic
-            </p>
-            <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
-              Our expert team combines technical SEO, content marketing, and conversion-focused design to deliver measurable growth. Whether it’s improving search rankings, increasing website traffic, or optimizing for better ROI, we tailor every solution to your goals.
-            </p>
-             <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
-               At Neostudio, we don’t just keep up with digital trends—we stay ahead, building marketing strategies that perform today and scale for tomorrow.
-            </p>
+          <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+  We partner with ambitious brands to create digital experiences that captivate and convert.
+</p>
+<p className="text-lg text-muted-foreground font-light leading-relaxed">
+  Neostudio is a results-driven digital marketing agency specializing in SEO, performance marketing, and brand growth strategies. We help businesses boost visibility, drive high-quality traffic, and scale effectively.
+</p>
+<p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+  Our team blends technical SEO, content marketing, and conversion-focused design to deliver real, measurable results.
+</p>
+<p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+  We don’t just follow digital trends—we anticipate them, building strategies that grow with your brand.
+</p>
+
           </div>
           
           <div className="grid grid-cols-3 gap-6">
