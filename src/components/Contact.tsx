@@ -22,7 +22,7 @@ const Contact = () => {
                 <Mail className="w-8 h-8 text-foreground" />
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">hello@elitedigital.com</p>
+              <p className="text-muted-foreground">team.neostudio@gmail.com</p>
             </CardContent>
           </Card>
           
@@ -32,7 +32,7 @@ const Contact = () => {
                 <Phone className="w-8 h-8 text-foreground" />
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Phone</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+91 98182 17507</p>
             </CardContent>
           </Card>
           
@@ -42,7 +42,7 @@ const Contact = () => {
                 <MapPin className="w-8 h-8 text-foreground" />
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Location</h3>
-              <p className="text-muted-foreground">New York, NY</p>
+              <p className="text-muted-foreground">GTB ENCLAVE, DILSHAD GARDEN, NEW DELHI, 110093</p>
             </CardContent>
           </Card>
         </div>
