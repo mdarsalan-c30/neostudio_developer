@@ -20,7 +20,11 @@ const About = () => {
               We partner with ambitious brands to create digital experiences that captivate audiences and drive unprecedented growth.
             </p>
             <p className="text-lg text-muted-foreground font-light leading-relaxed">
-              Our boutique approach ensures every client receives personalized attention and strategies tailored to their unique market position.
+             At Neostudio, we’re a results-driven digital marketing agency helping brands grow through smart, scalable, and data-led strategies. We specialize in SEO services, performance marketing, and digital brand development, empowering businesses to boost their online visibility and attract high-quality traffic
+            </p>
+            <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+              Our expert team combines technical SEO, content marketing, and conversion-focused design to deliver measurable growth. Whether it’s improving search rankings, increasing website traffic, or optimizing for better ROI, we tailor every solution to your goals.
+              At Neostudio, we don’t just keep up with digital trends—we stay ahead, building marketing strategies that perform today and scale for tomorrow.
             </p>
           </div>
           
