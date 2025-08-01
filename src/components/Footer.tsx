@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border/20">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2024 Elite Digital Marketing. All rights reserved.
+              © 2025 NeoStudio Digital Marketing. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-muted-foreground">
               <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
