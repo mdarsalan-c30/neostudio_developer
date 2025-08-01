@@ -24,7 +24,9 @@ const About = () => {
             </p>
             <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
               Our expert team combines technical SEO, content marketing, and conversion-focused design to deliver measurable growth. Whether it’s improving search rankings, increasing website traffic, or optimizing for better ROI, we tailor every solution to your goals.
-              At Neostudio, we don’t just keep up with digital trends—we stay ahead, building marketing strategies that perform today and scale for tomorrow.
+            </p>
+             <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+               At Neostudio, we don’t just keep up with digital trends—we stay ahead, building marketing strategies that perform today and scale for tomorrow.
             </p>
           </div>
           
