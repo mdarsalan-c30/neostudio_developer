@@ -6,7 +6,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-semibold text-foreground">
-            Elite<span className="text-muted-foreground">.</span>
+            NeoStudio<span className="text-muted-foreground">.</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
