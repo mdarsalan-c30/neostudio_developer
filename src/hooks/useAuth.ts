@@ -16,21 +16,27 @@ export const useAuth = () => {
         setUser(session?.user ?? null);
         
         if (session?.user) {
-          // Check if user is admin
+          // Check if user is admin - use setTimeout to avoid blocking auth state changes
           setTimeout(async () => {
             try {
-              const { data } = await supabase
+              const { data, error } = await supabase
                 .from('user_roles' as any)
                 .select('role')
                 .eq('user_id', session.user.id)
                 .eq('role', 'admin')
-                .single();
+                .maybeSingle();
               
-              setIsAdmin(!!data);
+              if (error) {
+                console.log('Admin check error:', error);
+                setIsAdmin(false);
+              } else {
+                setIsAdmin(!!data);
+              }
             } catch (error) {
+              console.log('Admin check failed:', error);
               setIsAdmin(false);
             }
-          }, 0);
+          }, 100);
         } else {
           setIsAdmin(false);
         }
