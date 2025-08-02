@@ -5,10 +5,9 @@ import Footer from "@/components/Footer";
 const TermsAndConditions = () => {
   return (
     <>
-      <Navigation />
-      <Hero title="Terms and Conditions" />
-
-      <div className="max-w-4xl mx-auto px-4 py-8 text-gray-800">
+      <Navigation title="Terms and Conditions" />
+    
+      <div className="max-w-4xl mx-auto px-4 py-8 text-white">
         <h1 className="text-2xl font-bold mb-4">Terms and Conditions</h1>
         <p className="mb-4">
           These Terms and Conditions ("Terms") govern your use of the NeoStudio website and services ("Platform"). By accessing or using the Platform, you agree to be bound by these Terms.
