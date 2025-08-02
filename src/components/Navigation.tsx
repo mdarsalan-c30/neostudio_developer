@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, User, Settings } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
-import neostudiologo from "@/assets/NeoStudio_logo_w.png";
+import neostudiologo from "@/assets/neostudiolgo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
