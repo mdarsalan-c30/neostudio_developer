@@ -1,11 +1,11 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import Footer from "@/components/Footer";
-
+import Head from "next/head";
 const TermsAndConditions = () => {
   return (
     <>
-      <Navigation title="Terms and Conditions" />
+  <Head>
+        <title>Terms and Conditions - NeoStudio</title>
+        <meta name="description" content="Read the terms and conditions of using NeoStudio." />
+      </Head>
     <div className="max-w-4xl mx-auto px-4 py-8 pt-24 text-white bg-gray-900 rounded-lg shadow-lg">
       <div className="max-w-4xl mx-auto px-4 py-8 text-white">
         <h1 className="text-2xl font-bold mb-4">Terms and Conditions</h1>
@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
         </p>
       </div>
 
-      <Footer />
+   
       </div>
     </>
   );
