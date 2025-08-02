@@ -12,6 +12,8 @@ import ContactAdmin from "@/components/admin/ContactAdmin";
 
 const Admin = () => {
   const { user, loading, isAdmin, signOut } = useAuth();
+  
+  console.log('Admin page render:', { user: user?.email, loading, isAdmin });
 
   if (loading) {
     return (

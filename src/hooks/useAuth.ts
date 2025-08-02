@@ -19,6 +19,8 @@ export const useAuth = () => {
           // Check if user is admin - use setTimeout to avoid blocking auth state changes
           setTimeout(async () => {
             try {
+              console.log('Checking admin status for user:', session.user.id, session.user.email);
+              
               const { data, error } = await supabase
                 .from('user_roles' as any)
                 .select('role')
@@ -26,11 +28,15 @@ export const useAuth = () => {
                 .eq('role', 'admin')
                 .maybeSingle();
               
+              console.log('Admin check result:', { data, error });
+              
               if (error) {
                 console.log('Admin check error:', error);
                 setIsAdmin(false);
               } else {
-                setIsAdmin(!!data);
+                const isAdminUser = !!data;
+                console.log('Setting isAdmin to:', isAdminUser);
+                setIsAdmin(isAdminUser);
               }
             } catch (error) {
               console.log('Admin check failed:', error);
@@ -38,6 +44,7 @@ export const useAuth = () => {
             }
           }, 100);
         } else {
+          console.log('No session user, setting isAdmin to false');
           setIsAdmin(false);
         }
         
