@@ -16,7 +16,7 @@ const Navigation = () => {
             NeoStudio<span className="text-muted-foreground">.</span>
           </div> */}
            <a href="/" className="flex items-center space-x-2">
-    <img src={neostudiologo} alt="NeoStudio Logo" className="h-18 w-auto" />
+    <img src={neostudiologo} alt="NeoStudio Logo" className="h-10 w-auto" />
   </a>
           
           {/* Desktop Navigation */}
