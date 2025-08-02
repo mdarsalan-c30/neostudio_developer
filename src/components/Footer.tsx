@@ -10,7 +10,7 @@ const Footer = () => {
               NeoStudio<span className="text-muted-foreground">.</span>
             </div> */}
               <a href="/" className="flex items-center space-x-2">
-    <img src={neostudiologo} alt="NeoStudio Logo" className="h-10 w-auto" />
+    <img src={neostudiologo} alt="NeoStudio Logo" className="h-17 w-auto" />
   </a>
             <p className="text-muted-foreground mb-6 font-light max-w-md">
               Neostudio creates bold digital experiences and future-ready strategies that drive innovation and growth.
