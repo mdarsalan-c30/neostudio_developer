@@ -73,7 +73,7 @@ const Footer = () => {
               <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
               <a href="/terms-and-conditions" className="hover:text-foreground transition-colors">Terms of Service</a>
               <a href="/cookies" className="hover:text-foreground transition-colors">Cookie Policy</a>
-              <a href="/sitemap" className="hover:text-foreground transition-colors">Sitemap</a>
+              <a href="/sitemap.xml" className="hover:text-foreground transition-colors">Sitemap</a>
             </div>
           </div>
         </div>
