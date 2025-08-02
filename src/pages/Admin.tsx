@@ -81,7 +81,7 @@ const Admin = () => {
       <div className="max-w-7xl mx-auto p-6">
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-          <Card className="bg-grey/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -92,7 +92,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-grey/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -103,7 +103,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-grey/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -114,7 +114,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-grey/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
