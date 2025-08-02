@@ -42,9 +42,14 @@ const TermsAndConditions = () => {
         <p className="mb-4">
           If you have any questions about these Terms, please contact us at <a href="mailto:team.neostudio@gmail.com" className="text-blue-600 underline">team.neostudio@gmail.com</a>.
         </p>
+        {/* ✅ Internal link to Home */}
+          <p className="mt-8 text-sm">
+            <a href="/" className="text-blue-400 underline hover:text-blue-600">
+              ← Back to Home
+            </a>
+          </p>
       </div>
 
-   
       </div>
     </>
   );
