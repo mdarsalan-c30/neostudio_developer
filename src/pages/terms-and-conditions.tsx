@@ -41,7 +41,7 @@ const TermsAndConditions = () => {
 
         <h2 className="text-xl font-semibold mt-6 mb-2">6. Contact</h2>
         <p className="mb-4">
-          If you have any questions about these Terms, please contact us at <a href="mailto:info@neostudio.in" className="text-blue-600 underline">info@neostudio.in</a>.
+          If you have any questions about these Terms, please contact us at <a href="mailto:team.neostudio@gmail.com" className="text-blue-600 underline">info@neostudio.in</a>.
         </p>
       </div>
 
