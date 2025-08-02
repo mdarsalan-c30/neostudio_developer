@@ -47,7 +47,7 @@ const TermsAndConditions = () => {
 
           {/* ✅ Internal link to Home */}
           <p className="mt-8 text-sm">
-            <a href="/" className="text-blue-400 underline hover:text-blue-600">
+            <a href="/" className="text-white underline hover:text-blue-600">
               ← Back to Home
             </a>
           </p>
