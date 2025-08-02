@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-
+import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
 const TermsAndConditions = () => {
@@ -8,7 +8,7 @@ const TermsAndConditions = () => {
       <Navigation />
       <Hero title="Terms and Conditions" />
 
-      <div className="max-w-4xl mx-auto px-4 py-8 text-grey-800">
+      <div className="max-w-4xl mx-auto px-4 py-8 text-gray-800">
         <h1 className="text-2xl font-bold mb-4">Terms and Conditions</h1>
         <p className="mb-4">
           These Terms and Conditions ("Terms") govern your use of the NeoStudio website and services ("Platform"). By accessing or using the Platform, you agree to be bound by these Terms.
@@ -41,7 +41,7 @@ const TermsAndConditions = () => {
 
         <h2 className="text-xl font-semibold mt-6 mb-2">6. Contact</h2>
         <p className="mb-4">
-          If you have any questions about these Terms, please contact us at <a href="mailto:team.neostudio@gmail.com" className="text-blue-600 underline">info@neostudio.in</a>.
+          If you have any questions about these Terms, please contact us at <a href="mailto:info@neostudio.in" className="text-blue-600 underline">info@neostudio.in</a>.
         </p>
       </div>
 
