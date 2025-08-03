@@ -9,6 +9,7 @@ import PortfolioAdmin from "@/components/admin/PortfolioAdmin";
 import TestimonialsAdmin from "@/components/admin/TestimonialsAdmin";
 import FAQAdmin from "@/components/admin/FAQAdmin";
 import ContactAdmin from "@/components/admin/ContactAdmin";
+import BlogAdmin from "@/components/admin/BlogAdmin";
 
 const Admin = () => {
   const { user, loading, isAdmin, signOut } = useAuth();
@@ -148,6 +149,10 @@ const Admin = () => {
                   <HelpCircle className="h-4 w-4" />
                   <span className="hidden sm:inline">FAQ</span>
                 </TabsTrigger>
+                 <TabsTrigger value="blog" className="flex items-center space-x-2">
+                  <FileText className="h-4 w-4" />
+                  <span className="hidden sm:inline">Blog</span>
+                </TabsTrigger>
               </TabsList>
 
               <TabsContent value="contacts">
@@ -164,6 +169,9 @@ const Admin = () => {
 
               <TabsContent value="faq">
                 <FAQAdmin />
+              </TabsContent>
+              <TabsContent value="blog">
+                <BlogAdmin />
               </TabsContent>
             </Tabs>
           </CardContent>
