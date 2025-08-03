@@ -53,7 +53,7 @@ const Admin = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
       {/* Admin Header */}
-      <div className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-10">
+      <div className="bg-gray-800 dark:bg-slate-800/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -82,7 +82,7 @@ const Admin = () => {
       <div className="max-w-7xl mx-auto p-6">
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-          <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -93,7 +93,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -104,7 +104,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -115,7 +115,7 @@ const Admin = () => {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+          <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
@@ -129,7 +129,7 @@ const Admin = () => {
         </div>
 
         {/* Main Content */}
-        <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+        <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
           <CardContent className="p-6">
             <Tabs defaultValue="contacts" className="space-y-6">
               <TabsList className="grid w-full grid-cols-5 lg:w-auto lg:grid-cols-5">
