@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, User, Settings } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
+import neostudiologo from "@/assets/neostudiolgo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +12,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-semibold text-foreground">
+{/*           <div className="text-2xl font-semibold text-foreground">
             NeoStudio<span className="text-muted-foreground">.</span>
-          </div>
+          </div> */}
+           <a href="/" className="flex items-center space-x-2">
+    <img src={neostudiologo} alt="NeoStudio Logo" className="h-10 w-auto" />
+  </a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

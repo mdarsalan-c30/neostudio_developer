@@ -1,3 +1,4 @@
+import neostudiologo from "@/assets/neostudiolgo.png";
 const Footer = () => {
   return (
     <footer className="bg-background border-t border-border/20 py-16">
@@ -5,9 +6,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <div className="text-3xl font-light text-foreground mb-4">
+{/*             <div className="text-3xl font-light text-foreground mb-4">
               NeoStudio<span className="text-muted-foreground">.</span>
-            </div>
+            </div> */}
+              <a href="/" className="flex items-center space-x-2">
+    <img src={neostudiologo} alt="NeoStudio Logo" className="h-10 w-auto" />
+  </a>
             <p className="text-muted-foreground mb-6 font-light max-w-md">
               Neostudio creates bold digital experiences and future-ready strategies that drive innovation and growth.
             </p>
@@ -67,9 +71,9 @@ const Footer = () => {
             <div className="flex space-x-6 text-sm text-muted-foreground">
               <a href="/admin" className="hover:text-foreground transition-colors">Ad</a>
               <a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-              <a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a>
+              <a href="/terms-and-conditions" className="hover:text-foreground transition-colors">Terms of Service</a>
               <a href="/cookies" className="hover:text-foreground transition-colors">Cookie Policy</a>
-              <a href="/sitemap" className="hover:text-foreground transition-colors">Sitemap</a>
+              <a href="/sitemap.xml" className="hover:text-foreground transition-colors">Sitemap</a>
             </div>
           </div>
         </div>

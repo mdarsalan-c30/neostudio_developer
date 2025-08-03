@@ -129,7 +129,10 @@ const Admin = () => {
         </div>
 
         {/* Main Content */}
+
+
         <Card className="bg-gray-800 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
+
           <CardContent className="p-6">
             <Tabs defaultValue="contacts" className="space-y-6">
               <TabsList className="grid w-full grid-cols-5 lg:w-auto lg:grid-cols-5">
@@ -149,7 +152,9 @@ const Admin = () => {
                   <HelpCircle className="h-4 w-4" />
                   <span className="hidden sm:inline">FAQ</span>
                 </TabsTrigger>
+
                 <TabsTrigger value="blog" className="flex items-center space-x-2">
+
                   <FileText className="h-4 w-4" />
                   <span className="hidden sm:inline">Blog</span>
                 </TabsTrigger>
@@ -170,7 +175,7 @@ const Admin = () => {
               <TabsContent value="faq">
                 <FAQAdmin />
               </TabsContent>
-              
+
               <TabsContent value="blog">
                 <BlogAdmin />
               </TabsContent>
