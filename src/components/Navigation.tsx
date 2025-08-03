@@ -4,6 +4,7 @@ import { Menu, X, User, Settings } from "lucide-react";
 import { useAuth } from "@/hooks/useAuth";
 import neostudiologo from "@/assets/neostudiolgo.png";
 
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { user, isAdmin } = useAuth();
@@ -34,8 +35,9 @@ const Navigation = () => {
               Testimonials
             </a>
             <a href="/blog" className="text-foreground hover:text-primary transition-colors">Blog</a>
+            
             <a href="#faq" className="text-foreground hover:text-primary transition-colors">
-              FAQ
+              FAQs
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contact
@@ -92,6 +94,7 @@ const Navigation = () => {
               <a href="#testimonials" className="block px-3 py-2 text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
                 Testimonials
               </a>
+              <a href="/blog" className="text-foreground hover:text-primary transition-colors">Blog</a>
               <a href="#faq" className="block px-3 py-2 text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
                 FAQ
               </a>
