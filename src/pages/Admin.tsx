@@ -9,6 +9,7 @@ import PortfolioAdmin from "@/components/admin/PortfolioAdmin";
 import TestimonialsAdmin from "@/components/admin/TestimonialsAdmin";
 import FAQAdmin from "@/components/admin/FAQAdmin";
 import ContactAdmin from "@/components/admin/ContactAdmin";
+import BlogAdmin from "@/components/admin/BlogAdmin";
 
 const Admin = () => {
   const { user, loading, isAdmin, signOut } = useAuth();
@@ -131,7 +132,7 @@ const Admin = () => {
         <Card className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm border-border/50">
           <CardContent className="p-6">
             <Tabs defaultValue="contacts" className="space-y-6">
-              <TabsList className="grid w-full grid-cols-4 lg:w-auto lg:grid-cols-4">
+              <TabsList className="grid w-full grid-cols-5 lg:w-auto lg:grid-cols-5">
                 <TabsTrigger value="contacts" className="flex items-center space-x-2">
                   <FileText className="h-4 w-4" />
                   <span className="hidden sm:inline">Contacts</span>
@@ -147,6 +148,10 @@ const Admin = () => {
                 <TabsTrigger value="faq" className="flex items-center space-x-2">
                   <HelpCircle className="h-4 w-4" />
                   <span className="hidden sm:inline">FAQ</span>
+                </TabsTrigger>
+                <TabsTrigger value="blog" className="flex items-center space-x-2">
+                  <FileText className="h-4 w-4" />
+                  <span className="hidden sm:inline">Blog</span>
                 </TabsTrigger>
               </TabsList>
 
@@ -164,6 +169,10 @@ const Admin = () => {
 
               <TabsContent value="faq">
                 <FAQAdmin />
+              </TabsContent>
+              
+              <TabsContent value="blog">
+                <BlogAdmin />
               </TabsContent>
             </Tabs>
           </CardContent>
